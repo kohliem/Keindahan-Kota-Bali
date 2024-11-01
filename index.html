@@ -13,7 +13,7 @@
     <header>
         <nav>
             <div class="logo">
-               <h2>Rizky Nugraha</h2>
+               <h2>Keindahan Kota Bali</h2>
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -22,7 +22,7 @@
                 <li><a href="#gallery">Galeri</a></li>
                 <li><a href="#contact">Kontak</a></li>
             </ul>
-            <div class="hamburger" onclick="toggleMenu()">
+            <div class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -90,6 +90,9 @@
             <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
                 <img src="images/gallery2.jpg" alt="Galeri 2">
             </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/gallery3.jpg" alt="Galeri 3">
+            </div>
         </div>
     </section>
 
@@ -117,10 +120,10 @@
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-    AOS.init({ duration: 1000, once: true });
-    function toggleMenu() {
-        document.querySelector('.nav-links').classList.toggle('nav-active');
-    }
+    AOS.init({
+        duration: 1000,
+        once: true,
+    });
     </script>
 </body>
 </html>
